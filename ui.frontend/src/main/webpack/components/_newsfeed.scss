@@ -1,0 +1,41 @@
+.cmp-newsfeed{
+
+    background-color: #FFF;
+
+    a {
+        text-decoration: none;
+        color: #514d4d;
+    }
+    .cmp-newsfeed__items{
+        width: 100%;
+        margin: 0 auto;
+        display: inline-table;
+        justify-content: center;
+    }
+
+    .cmp-newsfeed-item {
+        width: 24%;
+        color: #514d4d !important;
+        display: inline-grid;
+        margin: 5px;
+    }
+
+    .cmp-newsfeed__image {
+        width: 100%;
+    }
+
+    .cmp-newsfeed__firstnews {
+        .cmp-newsfeed__image{
+            width: 30%;
+            margin-top: 5px;
+        }
+
+        .cmp-newsfeed__title{ 
+            display: inline-block;
+            margin: 0;
+            margin-left: 10px;
+            width: 68%;
+            vertical-align: top;
+        }
+    }
+}
